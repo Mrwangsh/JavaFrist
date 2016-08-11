@@ -1,0 +1,25 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>layui WebIM 1.0beta Demo</title>
+</head>
+<link href="css/layim.css" type="text/css" rel="stylesheet"/>
+<body>
+<script src="lay/lib.js"></script>
+<script src="lay/layer/layer.min.js"></script>
+<script src="lay/layim.js"></script>
+<script>
+layui.use('layim', function(layim){
+  //先来个客服模式压压精
+  layim.chat({
+    name: '客服姐姐'
+    ,type: 'kefu'
+    ,avatar: 'http://tp1.sinaimg.cn/5619439268/180/40030060651/1'
+    ,id: -2
+  });
+});
+</script>
+</body>
+</html>
